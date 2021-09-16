@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <header>
+        <code>200</code>
+        <desc>交易成功</desc>
+    </header>
+    <body>
+        <request>
+            <!-- 数组类型1 -->
+            <userInfo>
+                <user>
+                    <id>1</id>
+                    <name>张三</name>
+                </user>
+                <user>
+                    <id>2</id>
+                    <name>李四</name>
+                </user>
+            </userInfo>
+            <!-- 数组类型2 -->
+            <books>
+                <book id="1" type="array">
+                    <name>java</name>
+                    <version>1.0</version>
+                </book>
+            </books>
+            <!-- 数组类型3 -->
+            <card>
+                <name>hello</name>
+            </card>
+            <card>
+                <name>world</name>
+            </card>
+        </request>
+    </body>
+</xml>

@@ -1,0 +1,38 @@
+{
+  "header": {
+    "code": "200",
+    "desc": "交易成功"
+  },
+  "body": {
+    "request": {
+      "userInfo": {
+        "user": [
+          {
+            "id": "1",
+            "name": "张三"
+          },
+          {
+            "id": "2",
+            "name": "李四"
+          }
+        ]
+      },
+      "books": {
+        "book": [
+          {
+            "name": "java",
+            "version": "1.0"
+          }
+        ]
+      },
+      "card": [
+        {
+          "name": "hello"
+        },
+        {
+          "name": "world"
+        }
+      ]
+    }
+  }
+}
